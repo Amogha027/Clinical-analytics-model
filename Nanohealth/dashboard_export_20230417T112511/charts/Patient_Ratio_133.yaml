@@ -1,0 +1,40 @@
+slice_name: Patient Ratio
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 26__table
+  viz_type: pie
+  slice_id: 133
+  granularity_sqla: createdAt
+  time_range: No filter
+  groupby:
+  - gndr
+  metric: count
+  adhoc_filters: []
+  row_limit: 100
+  sort_by_metric: true
+  color_scheme: bnbColors
+  show_labels_threshold: 1
+  show_legend: true
+  legendType: scroll
+  legendOrientation: bottom
+  legendMargin: null
+  label_type: key
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  show_total: true
+  outerRadius: 76
+  donut: true
+  innerRadius: 41
+  extra_form_data: {}
+  dashboards:
+  - 12
+cache_timeout: null
+uuid: 1604e628-7c11-438a-b56d-897821f1b894
+version: 1.0.0
+dataset_uuid: 8ce4823a-5deb-4578-b99f-09e60eba8db9

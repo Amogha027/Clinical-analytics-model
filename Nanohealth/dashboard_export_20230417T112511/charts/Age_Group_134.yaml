@@ -1,0 +1,50 @@
+slice_name: Age Group
+description: null
+certified_by: null
+certification_details: null
+viz_type: dist_bar
+params:
+  datasource: 27__table
+  viz_type: dist_bar
+  slice_id: 134
+  granularity_sqla: createdAt
+  time_range: No filter
+  metrics:
+  - count
+  adhoc_filters: []
+  groupby:
+  - Agegroup
+  columns: []
+  row_limit: 10000
+  timeseries_limit_metric:
+    aggregate: null
+    column: null
+    datasourceWarning: false
+    expressionType: SQL
+    hasCustomLabel: false
+    label: Agegroup
+    optionName: metric_0dvhxoa3izd6_p8wj8do3oaf
+    sqlExpression: Agegroup
+  order_desc: false
+  color_scheme: supersetColors
+  show_legend: false
+  show_bar_value: true
+  rich_tooltip: true
+  bar_stacked: false
+  order_bars: false
+  y_axis_format: SMART_NUMBER
+  y_axis_label: NUmber of patients
+  show_controls: false
+  y_axis_bounds:
+  - null
+  - null
+  x_axis_label: Age Group
+  bottom_margin: auto
+  x_ticks_layout: auto
+  extra_form_data: {}
+  dashboards:
+  - 12
+cache_timeout: null
+uuid: d40f3294-3930-4e29-9da9-20020c6cee40
+version: 1.0.0
+dataset_uuid: c138c010-6c6f-4b76-a52b-b389e8baede7

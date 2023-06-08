@@ -1,0 +1,13 @@
+database_name: NanoCube
+sqlalchemy_uri: postgresql+psycopg2://root:XXXXXXXXXX@172.18.0.1:5432/ebdb
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_file_upload: false
+extra:
+  allows_virtual_table_explore: true
+uuid: 1042596f-bf55-4743-bbee-af092dc9f226
+version: 1.0.0

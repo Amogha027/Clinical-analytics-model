@@ -1,0 +1,41 @@
+slice_name: Appointments
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 36__table
+  viz_type: pie
+  slice_id: 563
+  time_range: '2010-04-10T00:00:00 : 2023-04-17T00:00:00'
+  groupby:
+  - expressionType: SQL
+    label: TOA
+    sqlExpression: TOA
+  metric: count
+  adhoc_filters: []
+  row_limit: 100
+  sort_by_metric: false
+  color_scheme: echarts5Colors
+  show_labels_threshold: 0.1
+  show_legend: true
+  legendType: scroll
+  legendOrientation: bottom
+  legendMargin: 5
+  label_type: key
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  show_total: true
+  outerRadius: 62
+  donut: true
+  innerRadius: 30
+  extra_form_data: {}
+  dashboards:
+  - 12
+cache_timeout: null
+uuid: 469924bd-4b62-48cc-8fdf-1a22beebe480
+version: 1.0.0
+dataset_uuid: d1147e64-ee51-4d07-8316-dd4d22284a92
